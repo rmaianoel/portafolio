@@ -1,6 +1,0 @@
-@keyframes floatUp{from{transform:translateY(10px);opacity:0}to{transform:none;opacity:1}}
-
-.animate-float{animation:floatUp .7s cubic-bezier(.2,.8,.2,1) both}
-
-/* Simple typewriter (puedes usar JS para control más fino) */
-@keyframes typing{from{width:0}to{width:100%}}
