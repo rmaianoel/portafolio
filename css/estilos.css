@@ -1,5 +1,25 @@
-@import url('./_variables.css');
-@import url('./_animations.css');
+/* ===== inlined: _variables.css ===== */
+:root{
+	--bg:#faceec; /* fondo oscuro */
+	--card:#f27cad; /* tarjetas */
+	--text:#02040a; /* texto principal */
+	--muted:#000304; /* texto secundario */
+	--primary:#893e66; /* tonalidad primaria */
+	--accent:#761a49; /* teal/acento */
+	--heading:#030503; /* color headings */ 
+	--on-primary:#fffcfc;
+}
+
+/* Alternativa: modo claro (puedes añadir una clase .light para cambiar) */
+.light:root{--bg:#fdfdfd;--card:#ffffff;--text:#0b1220;--muted:#5b6b73}
+
+/* ===== inlined: _animations.css ===== */
+@keyframes floatUp{from{transform:translateY(10px);opacity:0}to{transform:none;opacity:1}}
+
+.animate-float{animation:floatUp .7s cubic-bezier(.2,.8,.2,1) both}
+
+/* Simple typewriter (puedes usar JS para control más fino) */
+@keyframes typing{from{width:0}to{width:100%}}
 
 /* Reset y base */
 *{box-sizing:border-box}html,body{margin:0;padding:0}body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
