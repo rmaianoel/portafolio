@@ -11,3 +11,17 @@
 
 /* Alternativa: modo claro (puedes añadir una clase .light para cambiar) */
 .light:root{--bg:#fdfdfd;--card:#ffffff;--text:#0b1220;--muted:#5b6b73}
+
+:root{
+  --bg:#faceec; /* fondo oscuro */
+  --card:#f27cad; /* tarjetas */
+  --text:#02040a; /* texto principal */
+  --muted:#000304; /* texto secundario */
+  --primary:#893e66; /* tonalidad primaria */
+  --accent:#761a49; /* teal/acento */
+  --heading:#030503; /* color headings */ 
+  --on-primary:#fffcfc;
+}
+
+/* Alternativa: modo claro (puedes añadir una clase .light para cambiar) */
+.light:root{--bg:#fdfdfd;--card:#ffffff;--text:#0b1220;--muted:#5b6b73}
